@@ -8,8 +8,8 @@ $('form').on('submit', function(e) {
     $(novoItem).appendTo('ul');
     $(novoItem).fadeIn(1000);
     $('#nome-lista').val('');
+    });
+    
     $(document).on('click', 'li', function() {
         $(this).toggleClass('riscar');
-    });
-
 })
